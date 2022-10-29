@@ -9,6 +9,6 @@ public class HelloWorld implements SparkApplication {
 
 	@Override
 	public void init() {
-		get("/hello", (req, res) -> "CICD bang jenkins -> tomcat 8");
+		get("/hello", (req, res) -> "CICD bang jenkins -> tomcat 9");
 	}
 }
